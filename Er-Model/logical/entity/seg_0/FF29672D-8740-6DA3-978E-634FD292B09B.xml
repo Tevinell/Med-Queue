@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FF29672D-8740-6DA3-978E-634FD292B09B" name="Medical Card">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-09 15:17:19 UTC</createdTime>
+<comment><![CDATA[Экземпляр сущности: Иванов болел ветрянкой, сломал нос, лечил кариес]]></comment>
+<ownerDesignName>Er-Model</ownerDesignName>
+<engineerTo>
+<item key="8B50BF2A-C62A-FCBD-5EEF-A3115F67505A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<synonymToDisplay>Медицинская карта</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="HistoryOfDisease" id="A6380AD8-C5C7-E4B8-3272-787216BB4386">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-09 15:59:22 UTC</createdTime>
+<comment><![CDATA[Какие болезни были (Например, Иванов болел ветрянкой)]]></comment>
+<ownerDesignName>Er-Model</ownerDesignName>
+<engineerTo>
+<item key="8B50BF2A-C62A-FCBD-5EEF-A3115F67505A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10000000</dataTypeSize>
+<ownDataTypeParameters>10000000,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="58C70B81-3A46-A4EB-98CC-9A44CA1C7A41" name="Medical Card PK">
+<createdBy>tevin</createdBy>
+<createdTime>2024-04-18 06:57:58 UTC</createdTime>
+<ownerDesignName>Er-Model</ownerDesignName>
+<engineerTo>
+<item key="8B50BF2A-C62A-FCBD-5EEF-A3115F67505A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A6380AD8-C5C7-E4B8-3272-787216BB4386</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

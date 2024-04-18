@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C593210A-A4BE-6C41-FFF1-CA3AE5988FA7" name="Notice of acceptance">
+<createdBy>danielheh</createdBy>
+<createdTime>2024-04-08 17:24:06 UTC</createdTime>
+<comment><![CDATA[Экземпляр сущности: Уведомление придет за день и за два часа до приема]]></comment>
+<ownerDesignName>Er-Model</ownerDesignName>
+<engineerTo>
+<item key="8B50BF2A-C62A-FCBD-5EEF-A3115F67505A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<synonymToDisplay>Уведомление о приеме</synonymToDisplay>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name=" DateOfAdmission" id="D1ECD917-000B-D19C-D8FA-B6D98B0AD08A">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-09 15:12:18 UTC</createdTime>
+<comment><![CDATA[Дата уведомления]]></comment>
+<ownerDesignName>Er-Model</ownerDesignName>
+<engineerTo>
+<item key="8B50BF2A-C62A-FCBD-5EEF-A3115F67505A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

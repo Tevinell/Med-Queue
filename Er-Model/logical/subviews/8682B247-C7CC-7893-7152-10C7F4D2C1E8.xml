@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogicalSubView" name="Logical - SubView_1" id="8682B247-C7CC-7893-7152-10C7F4D2C1E8">
+<createdBy>tevin</createdBy>
+<modifiedBy>tevin</modifiedBy>
+<createdTime>2024-04-18 14:04:17 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="86E09A1C-F4D5-8770-53B0-37DD0AEBA6EC" otype="Entity" vid="5C77F34B-1685-FABB-2D43-0691A3574056">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="237" y="360" width="171" height="122"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="86E09A1C-F4D5-8770-53B0-37DD0AEBA6EC" otype="Entity" vid="94368343-17E3-D387-174C-199AF996466C" vnum="1">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="599" y="282" width="171" height="122"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="98160BEB-3A29-3EF1-A434-13101CAD38D2" otype="Entity" vid="6AF01E48-A28A-B333-CB7D-0872F688B544">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="119" y="169" width="170" height="131"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="F9453DB8-AD75-6928-6DB8-3F462B5D592C" otype="Entity" vid="C01728E7-8373-17ED-A7FC-5E255A6020DE">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="474" y="139" width="195" height="130"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="0AF62907-E29B-3690-BC95-F243A9E6B984" otype="Relation" vid_source="6AF01E48-A28A-B333-CB7D-0872F688B544" vid_target="C01728E7-8373-17ED-A7FC-5E255A6020DE">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="289" y="219"/>
+<point x="474" y="219"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

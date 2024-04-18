@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="98160BEB-3A29-3EF1-A434-13101CAD38D2" name="Reception">
+<createdBy>danielheh</createdBy>
+<createdTime>2024-04-08 17:50:55 UTC</createdTime>
+<comment><![CDATA[Экземпляр сущности: Процесс приема пациентов (Например, проводится прием Иванова)
+]]></comment>
+<ownerDesignName>Er-Model</ownerDesignName>
+<engineerTo>
+<item key="8B50BF2A-C62A-FCBD-5EEF-A3115F67505A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<synonymToDisplay>Прием</synonymToDisplay>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Busyness" id="0298EC33-2030-7011-2CA4-3E361EE9BB6B">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-09 16:01:01 UTC</createdTime>
+<comment><![CDATA[Отвечает за то, свободен кабинет или нет (Например, 215 кабинет занят)
+]]></comment>
+<ownerDesignName>Er-Model</ownerDesignName>
+<engineerTo>
+<item key="8B50BF2A-C62A-FCBD-5EEF-A3115F67505A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

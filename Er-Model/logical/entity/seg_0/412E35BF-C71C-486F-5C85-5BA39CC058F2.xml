@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="412E35BF-C71C-486F-5C85-5BA39CC058F2" name="Reception (Administrator)">
+<createdBy>user</createdBy>
+<createdTime>2024-04-17 12:36:19 UTC</createdTime>
+<comment><![CDATA[Экземпляр сущности: Пациент Иванов звонит на респшн по номеру 8-800-555-35-35 с просьбой записаться)]]></comment>
+<ownerDesignName>Er-Model</ownerDesignName>
+<engineerTo>
+<item key="8B50BF2A-C62A-FCBD-5EEF-A3115F67505A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<synonymToDisplay>Ресепшн</synonymToDisplay>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PhoneNumber" id="235D6EB2-D7AE-0751-F694-E5F45FB3A84F">
+<createdBy>tevin</createdBy>
+<createdTime>2024-04-18 04:42:10 UTC</createdTime>
+<comment><![CDATA[Номер телефона ресепшена (У ресепшена номер 8-800-555-35-35)
+]]></comment>
+<ownerDesignName>Er-Model</ownerDesignName>
+<engineerTo>
+<item key="8B50BF2A-C62A-FCBD-5EEF-A3115F67505A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

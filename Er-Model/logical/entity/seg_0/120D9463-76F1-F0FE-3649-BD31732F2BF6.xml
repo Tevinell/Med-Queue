@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="120D9463-76F1-F0FE-3649-BD31732F2BF6" name="Access to Medical History">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-09 15:36:15 UTC</createdTime>
+<comment><![CDATA[Экземпляр сущности: Петров имеет доступ к медицинской карте Иванова
+]]></comment>
+<ownerDesignName>Er-Model</ownerDesignName>
+<engineerTo>
+<item key="8B50BF2A-C62A-FCBD-5EEF-A3115F67505A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<synonymToDisplay>Доступ к медицинской истории</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Condition" id="57CD7AC8-9B35-7649-DFE0-2761AA8C8612">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-09 15:58:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[Разрешение
+]]></commentInRDBMS>
+<ownerDesignName>Er-Model</ownerDesignName>
+<engineerTo>
+<item key="8B50BF2A-C62A-FCBD-5EEF-A3115F67505A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HistoryOfDisease" id="40140D82-E4D4-3588-567A-D8A3AD66A4E8">
+<createdBy>tevin</createdBy>
+<createdTime>2024-04-18 06:57:59 UTC</createdTime>
+<comment><![CDATA[Какие болезни были (Например, Иванов болел ветрянкой)]]></comment>
+<generatorID>B264D863-60FC-1C3C-6A7B-CCD73F1E1AD2</generatorID>
+<ownerDesignName>Er-Model</ownerDesignName>
+<engineerTo>
+<item key="8B50BF2A-C62A-FCBD-5EEF-A3115F67505A" value="true"/>
+</engineerTo>
+<referedAttribute>A6380AD8-C5C7-E4B8-3272-787216BB4386</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10000000</dataTypeSize>
+<ownDataTypeParameters>10000000,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

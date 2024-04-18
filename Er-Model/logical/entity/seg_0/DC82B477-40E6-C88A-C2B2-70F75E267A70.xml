@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DC82B477-40E6-C88A-C2B2-70F75E267A70" name="Appointment with a Doctor">
+<createdBy>user</createdBy>
+<createdTime>2024-04-17 12:28:02 UTC</createdTime>
+<comment><![CDATA[Экземпляр сущности: к Петрову было свободно время на 13:30 и Иванов записался к нему онлайн]]></comment>
+<ownerDesignName>Er-Model</ownerDesignName>
+<engineerTo>
+<item key="8B50BF2A-C62A-FCBD-5EEF-A3115F67505A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<synonymToDisplay>Запись к врачу</synonymToDisplay>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Date" id="F2CE9146-793B-0674-082A-9ED7A66DDBEB">
+<createdBy>user</createdBy>
+<createdTime>2024-04-17 12:37:09 UTC</createdTime>
+<comment><![CDATA[Когда прием (Например,запись к доктору Петрову на 12:00 13.12.2045)]]></comment>
+<ownerDesignName>Er-Model</ownerDesignName>
+<engineerTo>
+<item key="8B50BF2A-C62A-FCBD-5EEF-A3115F67505A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="859C0EDB-832D-E7C8-36E1-11E2373B40B5">
+<createdBy>user</createdBy>
+<createdTime>2024-04-17 12:38:31 UTC</createdTime>
+<comment><![CDATA[Свободно ли время (Например, к Петрову есть время на 13:30)]]></comment>
+<ownerDesignName>Er-Model</ownerDesignName>
+<engineerTo>
+<item key="8B50BF2A-C62A-FCBD-5EEF-A3115F67505A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RecordType" id="00B27910-EA98-C048-311C-2D8E6B314867">
+<createdBy>user</createdBy>
+<createdTime>2024-04-17 12:55:11 UTC</createdTime>
+<comment><![CDATA[Тип записи: Онлайн или оффлайн (Например, Иванов записался онлайн)]]></comment>
+<ownerDesignName>Er-Model</ownerDesignName>
+<engineerTo>
+<item key="8B50BF2A-C62A-FCBD-5EEF-A3115F67505A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

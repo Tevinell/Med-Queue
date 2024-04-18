@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_10" directorySegmentName="seg_0" id="B3FE72D7-7DA6-91D1-B4F6-564769C4B62D">
+<createdBy>tevin</createdBy>
+<createdTime>2024-04-18 05:09:05 UTC</createdTime>
+<ownerDesignName>Er-Model</ownerDesignName>
+<engineerTo>
+<item key="8B50BF2A-C62A-FCBD-5EEF-A3115F67505A" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Переходит</nameOnSource>
+<nameOnTarget>Принимает</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FE06F389-1623-5742-F1E8-6BB5FA418A43</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>98160BEB-3A29-3EF1-A434-13101CAD38D2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

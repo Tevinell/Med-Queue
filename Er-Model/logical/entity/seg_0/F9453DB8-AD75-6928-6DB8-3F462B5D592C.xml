@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F9453DB8-AD75-6928-6DB8-3F462B5D592C" name="Cabinet of Doctor">
+<createdBy>user</createdBy>
+<createdTime>2024-04-17 12:22:32 UTC</createdTime>
+<comment><![CDATA[Экземпляр сущности: Врач находится на 3 этаже в кабинете номер 233)]]></comment>
+<ownerDesignName>Er-Model</ownerDesignName>
+<engineerTo>
+<item key="8B50BF2A-C62A-FCBD-5EEF-A3115F67505A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<synonymToDisplay>Кабинет врача</synonymToDisplay>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="OfficeNumber" id="012AF205-979C-EFA9-EED7-C9C746C392BB">
+<createdBy>user</createdBy>
+<createdTime>2024-04-17 13:03:18 UTC</createdTime>
+<comment><![CDATA[Какой номер у кабинета (Например, у Кардиолога номер кабинета 233)]]></comment>
+<ownerDesignName>Er-Model</ownerDesignName>
+<engineerTo>
+<item key="8B50BF2A-C62A-FCBD-5EEF-A3115F67505A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Floor" id="45FC6911-1626-CD25-FCBE-977420C57CD4">
+<createdBy>user</createdBy>
+<createdTime>2024-04-17 13:03:37 UTC</createdTime>
+<comment><![CDATA[Какой этаж (Например, у Кардиолога кабинет нахоидится на 3 этаже)]]></comment>
+<ownerDesignName>Er-Model</ownerDesignName>
+<engineerTo>
+<item key="8B50BF2A-C62A-FCBD-5EEF-A3115F67505A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
